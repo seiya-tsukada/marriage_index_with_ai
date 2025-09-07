@@ -18,6 +18,7 @@ A service that supports people's happiness by providing a new concept called the
 
 ## Backend
 
+- uv
 - Python
   - FaskAPI
 
