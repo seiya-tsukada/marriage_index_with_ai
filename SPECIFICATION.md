@@ -17,5 +17,11 @@ A service that supports people's happiness by providing a new concept called the
 
 ## Backend
 
-- TBD
+- Python
+  - Flask or FaskAPI
+
+## DB
+
+- CSV
+- DuckDB
 
