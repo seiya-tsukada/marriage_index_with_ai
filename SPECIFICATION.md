@@ -13,15 +13,38 @@ A service that supports people's happiness by providing a new concept called the
 
 ## FrontEnd
 
-- TBD
+- Next.js
+- Tailwind
 
 ## Backend
 
 - Python
-  - Flask or FaskAPI
+  - FaskAPI
 
 ## DB
 
-- CSV
+- sqlite
+
+## Analytics
+
 - DuckDB
 
+## Platform
+
+- AWS
+
+## Environment
+
+### Production
+(Don't use yet)
+
+#### MVP
+
+- AWS
+  - S3 (static hosting & SQLite backup)
+  - Lambda (FastAPI backend)
+  - API Gateway (frontend-backend integration)
+
+### Development
+
+- Local Machine
