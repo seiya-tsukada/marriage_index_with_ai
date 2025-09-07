@@ -1,0 +1,20 @@
+[project]
+name = "marriage-index-backend"
+version = "0.1.0"
+description = "Backend for Marriage Index application"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "pydantic>=2.5.0",
+    "python-multipart>=0.0.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uvicorn]
+host = "127.0.0.1"
+port = 8000
+reload = true
